@@ -5484,7 +5484,7 @@ public final class Settings {
         /**
          * @hide
          */
-        public static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";   
+        public static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";
 
         /**
          * Whether to wake the display when plugging or unplugging the charger
@@ -5517,7 +5517,7 @@ public final class Settings {
          * @hide
          */
         public static final String[] LEGACY_RESTORE_SETTINGS = {
-        };     
+        };
 
         /**
          * Three Finger Gesture from Oppo
@@ -10509,6 +10509,18 @@ public final class Settings {
          * @hide
          */
         public static final String VOLUME_LINK_NOTIFICATION = "volume_link_notification";
+
+        /**
+         * Whether to enable Ambient edge light
+         * @hide
+         */
+        public static final String PULSE_AMBIENT_LIGHT = "pulse_ambient_light";
+
+        /**
+         * What color to use for Ambient edge light
+         * @hide
+         */
+        public static final String PULSE_AMBIENT_LIGHT_COLOR = "pulse_ambient_light_color";
 
         /**
          * Keys we no longer back up under the current schema, but want to continue to
